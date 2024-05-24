@@ -1,0 +1,115 @@
+/* Reset default styles */
+body, h1, h2, p, ul, li, nav {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Sky Blue */
+    color: #000; /* Black */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #87ceeb; /* Sky Blue */
+    color: #fff; /* White */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: #fff; /* White */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header nav ul li a:hover {
+    color: #ffa500; /* Orange */
+}
+
+.about, .expertise, .services, .reviews, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2, .expertise h2, .services h2, .reviews h2, .contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about p, .contact p {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.about-img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 5px solid #000; /* Black */
+    transition: transform 0.3s;
+}
+
+.about-img:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #87ceeb; /* Sky Blue */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer .freelance-links a {
+    color: #ffa500; /* Orange */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer .freelance-links a:hover {
+    color: #fff; /* White */
+}
+.bubble {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #87ceeb; /* Sky Blue */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Add animation for bubbles if needed */
